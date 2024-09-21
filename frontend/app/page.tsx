@@ -368,7 +368,7 @@ export default function HomePage() {
                     <CardTitle>Customization</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm">Solutions tailored to your needs. We understand that one size doesn't fit all, especially in technology.</p>
+                    <p className="text-sm">Solutions tailored to your needs. We understand that one size doesnt fit all, especially in technology.</p>
                   </CardContent>
                 </Card>
                 <Card className="bg-gradient-to-br from-yellow-500 to-orange-500 text-white">
@@ -376,7 +376,7 @@ export default function HomePage() {
                     <CardTitle>Serviceability</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm">Long-term support and maintenance options. We're committed to ensuring your tech keeps running smoothly.</p>
+                    <p className="text-sm">Long-term support and maintenance options. Were committed to ensuring your tech keeps running smoothly.</p>
                   </CardContent>
                 </Card>
               </div>
@@ -387,7 +387,7 @@ export default function HomePage() {
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                 {[
                   { name: "John Doe", company: "Tech Innovations Inc.", testimonial: "SysForge Labs built me a custom NAS that perfectly fits my small business needs. Their support has been exceptional!" },
-                  { name: "Jane Smith", company: "Data Solutions Co.", testimonial: "The enterprise networking solutions from SysForge have significantly improved our company's infrastructure. Great service!" },
+                  { name: "Jane Smith", company: "Data Solutions Co.", testimonial: "The enterprise networking solutions from SysForge have significantly improved our companys infrastructure. Great service!" },
                   { name: "Alex Johnson", company: "Gaming Studio X", testimonial: "Our custom-built gaming PCs from SysForge are absolute beasts. They've taken our game development to the next level." },
                 ].map((testimonial, index) => (
                   <motion.div key={index} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
@@ -412,7 +412,7 @@ export default function HomePage() {
                   <div className="flex flex-col md:flex-row items-center justify-between">
                     <div className="mb-4 md:mb-0">
                       <h3 className="text-2xl font-bold mb-2">Ready to forge your tech future?</h3>
-                      <p className="text-lg">Let's build something amazing together.</p>
+                      <p className="text-lg">Lets build something amazing together.</p>
                     </div>
                     <Button size="lg" variant="secondary" className="w-full md:w-auto">
                       Get a Free Consultation
